@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using CakesWebApp.Models;
 using Microsoft.EntityFrameworkCore;
+using SIS.HTTP.Common;
 
 namespace CakesWebApp.Data
 {
@@ -16,7 +17,7 @@ namespace CakesWebApp.Data
         protected override void OnConfiguring(
             DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"Server=YORDAN-PC\SQLEXPRESS;Database=Cakes;Integrated Security=True;").UseLazyLoadingProxies();
+            optionsBuilder.UseSqlServer(Configuration.Connection).UseLazyLoadingProxies();
         }
     }
 }

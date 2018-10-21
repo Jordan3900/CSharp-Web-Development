@@ -6955,11 +6955,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Development\\SIS-MvcFramework\\src\\Apps\\CakesWebApp\\CakesWebApp.csproj",
+      "projectUniqueName": "C:\\Development\\CSharp-Web-Development\\SIS-MvcFramework\\src\\Apps\\CakesWebApp\\CakesWebApp.csproj",
       "projectName": "CakesWebApp",
-      "projectPath": "C:\\Development\\SIS-MvcFramework\\src\\Apps\\CakesWebApp\\CakesWebApp.csproj",
+      "projectPath": "C:\\Development\\CSharp-Web-Development\\SIS-MvcFramework\\src\\Apps\\CakesWebApp\\CakesWebApp.csproj",
       "packagesPath": "C:\\Users\\pmyor\\.nuget\\packages\\",
-      "outputPath": "C:\\Development\\SIS-MvcFramework\\src\\Apps\\CakesWebApp\\obj\\",
+      "outputPath": "C:\\Development\\CSharp-Web-Development\\SIS-MvcFramework\\src\\Apps\\CakesWebApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -6978,8 +6978,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Development\\SIS-MvcFramework\\src\\SIS.MvcFramework\\SIS.MvcFramework.csproj": {
-              "projectPath": "C:\\Development\\SIS-MvcFramework\\src\\SIS.MvcFramework\\SIS.MvcFramework.csproj"
+            "C:\\Development\\CSharp-Web-Development\\SIS-MvcFramework\\src\\SIS.MvcFramework\\SIS.MvcFramework.csproj": {
+              "projectPath": "C:\\Development\\CSharp-Web-Development\\SIS-MvcFramework\\src\\SIS.MvcFramework\\SIS.MvcFramework.csproj"
             }
           }
         }

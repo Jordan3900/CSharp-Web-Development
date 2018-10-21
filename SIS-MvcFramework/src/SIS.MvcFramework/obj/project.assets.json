@@ -5223,11 +5223,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Development\\SIS-MvcFramework\\src\\SIS.MvcFramework\\SIS.MvcFramework.csproj",
+      "projectUniqueName": "C:\\Development\\CSharp-Web-Development\\SIS-MvcFramework\\src\\SIS.MvcFramework\\SIS.MvcFramework.csproj",
       "projectName": "SIS.MvcFramework",
-      "projectPath": "C:\\Development\\SIS-MvcFramework\\src\\SIS.MvcFramework\\SIS.MvcFramework.csproj",
+      "projectPath": "C:\\Development\\CSharp-Web-Development\\SIS-MvcFramework\\src\\SIS.MvcFramework\\SIS.MvcFramework.csproj",
       "packagesPath": "C:\\Users\\pmyor\\.nuget\\packages\\",
-      "outputPath": "C:\\Development\\SIS-MvcFramework\\src\\SIS.MvcFramework\\obj\\",
+      "outputPath": "C:\\Development\\CSharp-Web-Development\\SIS-MvcFramework\\src\\SIS.MvcFramework\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5246,11 +5246,11 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Development\\SIS-MvcFramework\\src\\SIS.HTTP\\SIS.HTTP.csproj": {
-              "projectPath": "C:\\Development\\SIS-MvcFramework\\src\\SIS.HTTP\\SIS.HTTP.csproj"
+            "C:\\Development\\CSharp-Web-Development\\SIS-MvcFramework\\src\\SIS.HTTP\\SIS.HTTP.csproj": {
+              "projectPath": "C:\\Development\\CSharp-Web-Development\\SIS-MvcFramework\\src\\SIS.HTTP\\SIS.HTTP.csproj"
             },
-            "C:\\Development\\SIS-MvcFramework\\src\\SIS.WebServer\\SIS.WebServer.csproj": {
-              "projectPath": "C:\\Development\\SIS-MvcFramework\\src\\SIS.WebServer\\SIS.WebServer.csproj"
+            "C:\\Development\\CSharp-Web-Development\\SIS-MvcFramework\\src\\SIS.WebServer\\SIS.WebServer.csproj": {
+              "projectPath": "C:\\Development\\CSharp-Web-Development\\SIS-MvcFramework\\src\\SIS.WebServer\\SIS.WebServer.csproj"
             }
           }
         }

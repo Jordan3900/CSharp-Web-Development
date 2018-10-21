@@ -687,11 +687,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Development\\SIS-MvcFramework\\src\\SIS.HTTP\\SIS.HTTP.csproj",
+      "projectUniqueName": "C:\\Development\\CSharp-Web-Development\\SIS-MvcFramework\\src\\SIS.HTTP\\SIS.HTTP.csproj",
       "projectName": "SIS.HTTP",
-      "projectPath": "C:\\Development\\SIS-MvcFramework\\src\\SIS.HTTP\\SIS.HTTP.csproj",
+      "projectPath": "C:\\Development\\CSharp-Web-Development\\SIS-MvcFramework\\src\\SIS.HTTP\\SIS.HTTP.csproj",
       "packagesPath": "C:\\Users\\pmyor\\.nuget\\packages\\",
-      "outputPath": "C:\\Development\\SIS-MvcFramework\\src\\SIS.HTTP\\obj\\",
+      "outputPath": "C:\\Development\\CSharp-Web-Development\\SIS-MvcFramework\\src\\SIS.HTTP\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -1,6 +1,7 @@
 ﻿using IRunesWebApp.Models;
 
 using Microsoft.EntityFrameworkCore;
+using SIS.HTTP.Common;
 
 namespace IRunesWebApp.Data
 {
@@ -18,7 +19,7 @@ namespace IRunesWebApp.Data
             DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder
-                .UseSqlServer(@"Server=YORDAN-PC\SQLEXPRESS; Database=IRunesApp; Integrated Security=true")
+                .UseSqlServer(Configuration.Connection)
                 .UseLazyLoadingProxies();
         
             base.OnConfiguring(optionsBuilder);

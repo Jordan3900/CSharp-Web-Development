@@ -6991,11 +6991,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Development\\SIS-MvcFramework\\src\\Apps\\IRunesWebApp\\IRunesWebApp.csproj",
+      "projectUniqueName": "C:\\Development\\CSharp-Web-Development\\SIS-MvcFramework\\src\\Apps\\IRunesWebApp\\IRunesWebApp.csproj",
       "projectName": "IRunesWebApp",
-      "projectPath": "C:\\Development\\SIS-MvcFramework\\src\\Apps\\IRunesWebApp\\IRunesWebApp.csproj",
+      "projectPath": "C:\\Development\\CSharp-Web-Development\\SIS-MvcFramework\\src\\Apps\\IRunesWebApp\\IRunesWebApp.csproj",
       "packagesPath": "C:\\Users\\pmyor\\.nuget\\packages\\",
-      "outputPath": "C:\\Development\\SIS-MvcFramework\\src\\Apps\\IRunesWebApp\\obj\\",
+      "outputPath": "C:\\Development\\CSharp-Web-Development\\SIS-MvcFramework\\src\\Apps\\IRunesWebApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -7014,14 +7014,14 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Development\\SIS-MvcFramework\\src\\SIS.HTTP\\SIS.HTTP.csproj": {
-              "projectPath": "C:\\Development\\SIS-MvcFramework\\src\\SIS.HTTP\\SIS.HTTP.csproj"
+            "C:\\Development\\CSharp-Web-Development\\SIS-MvcFramework\\src\\SIS.HTTP\\SIS.HTTP.csproj": {
+              "projectPath": "C:\\Development\\CSharp-Web-Development\\SIS-MvcFramework\\src\\SIS.HTTP\\SIS.HTTP.csproj"
             },
-            "C:\\Development\\SIS-MvcFramework\\src\\SIS.MvcFramework\\SIS.MvcFramework.csproj": {
-              "projectPath": "C:\\Development\\SIS-MvcFramework\\src\\SIS.MvcFramework\\SIS.MvcFramework.csproj"
+            "C:\\Development\\CSharp-Web-Development\\SIS-MvcFramework\\src\\SIS.MvcFramework\\SIS.MvcFramework.csproj": {
+              "projectPath": "C:\\Development\\CSharp-Web-Development\\SIS-MvcFramework\\src\\SIS.MvcFramework\\SIS.MvcFramework.csproj"
             },
-            "C:\\Development\\SIS-MvcFramework\\src\\SIS.WebServer\\SIS.WebServer.csproj": {
-              "projectPath": "C:\\Development\\SIS-MvcFramework\\src\\SIS.WebServer\\SIS.WebServer.csproj"
+            "C:\\Development\\CSharp-Web-Development\\SIS-MvcFramework\\src\\SIS.WebServer\\SIS.WebServer.csproj": {
+              "projectPath": "C:\\Development\\CSharp-Web-Development\\SIS-MvcFramework\\src\\SIS.WebServer\\SIS.WebServer.csproj"
             }
           }
         }
