@@ -3,3 +3,8 @@
 ################################################################################
 
 /SIS-MvcFramework/src/.vs
+/SIS-MvcFramework/src/Apps/CakesWebApp/obj
+/SIS-MvcFramework/src/Apps/CakesWebApp/bin
+/SIS-MvcFramework/src/Apps/CakesWebApp/bin
+/SIS-MvcFramework/src/Apps/CakesWebApp/obj
+/SIS-MvcFramework/src/SIS.HTTP/Common/Configuration.cs
