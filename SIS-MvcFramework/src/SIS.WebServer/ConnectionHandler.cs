@@ -1,13 +1,12 @@
-﻿using System;
-using System.Net.Sockets;
-using System.Text;
-using System.Threading.Tasks;
-using SIS.HTTP.Cookies;
-using SIS.HTTP.Enums;
-using SIS.WebServer.Results;
-
-namespace SIS.WebServer
+﻿namespace SIS.WebServer
 {
+    using System;
+    using System.Net.Sockets;
+    using System.Text;
+    using System.Threading.Tasks;
+    using SIS.HTTP.Cookies;
+    using SIS.HTTP.Enums;
+    using SIS.WebServer.Results;
     using HTTP.Common;
     using HTTP.Exceptions;
     using HTTP.Requests;
@@ -78,7 +77,7 @@ namespace SIS.WebServer
             if (!this.serverRoutingTable.Routes.ContainsKey(httpRequest.RequestMethod)
                 || !this.serverRoutingTable.Routes[httpRequest.RequestMethod].ContainsKey(httpRequest.Path))
             {
-                return new HttpResponse(HttpResponseStatusCode.NotFound);
+                return new TextResult($"Route with method {httpRequest.RequestMethod} and path \"{httpRequest.Path}\" not found", HttpResponseStatusCode.NotFound);
             }
 
             return this.serverRoutingTable.Routes[httpRequest.RequestMethod][httpRequest.Path].Invoke(httpRequest);
