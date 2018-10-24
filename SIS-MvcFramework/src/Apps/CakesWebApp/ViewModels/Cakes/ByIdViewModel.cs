@@ -4,7 +4,7 @@
     using System.Collections.Generic;
     using System.Text;
 
-    public class ByIdViewModel
+    public class CakeViewModel
     {
         public int Id { get; set; }
 
