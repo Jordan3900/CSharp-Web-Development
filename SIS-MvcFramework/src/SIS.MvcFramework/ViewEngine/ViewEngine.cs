@@ -99,7 +99,14 @@ namespace MyAppViews
             var stringBuilder = new StringBuilder();
             foreach (var line in lines)
             {
-                if (line.Trim().StartsWith("{") ||
+                if (line.Trim().StartsWith("{") && line.Trim().EndsWith("}"))
+                {
+                    var csharp = line.Trim();
+                    csharp = csharp.Substring(1, csharp.Length - 2);
+                    stringBuilder.AppendLine(csharp);
+                }
+
+                else if (line.Trim().StartsWith("{") ||
                     line.Trim().StartsWith("}") ||
                     line.Trim().StartsWith("@for") ||
                     line.Trim().StartsWith("@else") ||
