@@ -81,6 +81,10 @@ footer {
     color: whitesmoke;
 }
 
+.all-h1-black {
+    color: black;
+}
+
 .jumbotron {
     background-color: green;
 }

@@ -1,5 +1,8 @@
-﻿<h1>Albums</h1>
+﻿<h1 class="all-h1-black">Albums</h1>
 <hr />
-<a href="albums/create">Create Album</a>
+<a href="/create">Create Album</a>
 <hr />
-{{albumsList}}
+@foreach(var album in Model)
+{
+    <a href="/details?id=@album.Id"> @album.Name</a>
+}
