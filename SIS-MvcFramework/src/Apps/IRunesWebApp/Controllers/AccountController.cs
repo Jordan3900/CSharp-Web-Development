@@ -53,13 +53,13 @@
             // Hash password
             var hashedPassword = this.hashService.Hash(model.Password);
 
-            // Create user
             var user = new User
             {
                 Username = model.Username.Trim(),
                 HashedPassword = hashedPassword.Trim(),
                 Email = model.Email,
             };
+
             this.Db.Users.Add(user);
 
             try
@@ -68,14 +68,12 @@
             }
             catch (Exception e)
             {
-                // TODO: Log error
+           
                 return this.ServerError(e.Message);
             }
 
-            // TODO: Login
-
             // Redirect
-            return this.Redirect("/");
+            return this.Redirect("/login");
         }
 
         [HttpGet("/login")]
