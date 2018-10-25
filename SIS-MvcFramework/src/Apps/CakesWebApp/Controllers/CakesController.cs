@@ -30,12 +30,8 @@ namespace CakesWebApp.Controllers
         public IHttpResponse DoAddCakes(DoAddCakesInputModel model)
         {
             // TODO: Validation
-            var product = new Product
-            {
-                Name = model.Name,
-                Price = model.Price,
-                ImageUrl = model.Picture,
-            };
+            var product = model.To<Product>();
+
             this.Db.Products.Add(product);
 
             try
@@ -54,21 +50,16 @@ namespace CakesWebApp.Controllers
 
         // cakes/view?id=1
         [HttpGet("/cakes/view")]
-        public IHttpResponse ById()
+        public IHttpResponse ById(int id)
         {
-            var id = int.Parse(this.Request.QueryData["id"].ToString());
             var product = this.Db.Products.FirstOrDefault(x => x.Id == id);
             if (product == null)
             {
                 return this.BadRequestError("Cake not found.");
             }
 
-            var viewModel = new CakeViewModel
-            {
-                Name = product.Name,
-                Price = product.Price,
-                ImageUrl = product.ImageUrl,
-            };
+            var viewModel = product.To<CakeViewModel>();
+
             return this.View("CakeById", viewModel);
         }
 
