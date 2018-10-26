@@ -1,0 +1,22 @@
+﻿<h1 class="all-h1-black">Create Track</h1>
+<hr />
+<h1 class="all-h1-black">Create Album</h1>
+<div class="top-border-line primary-separator w-50"></div>
+<form class="w-50" role="form" id="create-form" method="post" action="/tracks/create?albumId=@Model.Id">
+    <div class="form-group w-25">
+        <label for="name" class="all-h1-black">Name</label>
+        <input type="text" name="name" class="form-control" id="name" placeholder="Name">
+    </div>
+    <div class="form-group w-25">
+        <label for="link" class="all-h1-black">Link</label>
+        <input type="url" name="link" class="form-control" id="cover" placeholder="link">
+    </div>
+    <div class="form-group w-25">
+        <label for="price" class="all-h1-black">Price</label>
+        <input type="number" name="price" class="form-control" id="price" placeholder="price">
+    </div>
+    <div class="text-left">
+        <button class="btn btn-success" type="submit">Create</button>
+    </div>
+</form>
+<div class="top-border-line primary-separator w-50"></div>

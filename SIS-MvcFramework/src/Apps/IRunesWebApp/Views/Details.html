@@ -1,3 +1,19 @@
-﻿<img class="img-fluid" title="@Model.Name" src="@Model.Cover" />
+﻿<div class="top-border-line primary-separator"></div>
+<img class="img-fluid" title="@Model.Name" src="@Model.Cover" />
 <div class="all-h1-black"><em>Name: @Model.Name</em></div>
 <div class="all-h1-black"><em>Price: $@Model.Price</em></div>
+<br />
+<br />
+<h2 class="all-h1-black">Tracks</h2>
+<div class="top-border-line primary-separator"></div>
+<a href="/Tracks/Create?albumId=@Model.Id">Create track</a>
+
+<div class="top-border-line primary-separator"></div>
+<ul>
+    @foreach(var trackAlbums in Model.Tracks)
+    {
+        <li class="all-h1-black" ><a href="@trackAlbums.Track.Link">@trackAlbums.Track.Name</a></li>
+    }
+</ul>
+<a href="/all">Back to all</a>
+<div class="top-border-line primary-separator"></div>
